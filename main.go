@@ -22,8 +22,6 @@ func init(){
 func main() {
 	// LOAD ENVIRONMENT VARIABLES
 	// config.LoadEnvironmentVar()
-	
-	
 	 fmt.Println("environment var :", os.Getenv("NAME"))
 	 fmt.Println("environment var :", os.Getenv("NAME")=="SK SHAHRIAR AHMED RAKA")
 	 
