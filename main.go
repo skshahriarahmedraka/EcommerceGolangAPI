@@ -26,6 +26,7 @@ func main() {
 	
 	 fmt.Println("environment var :", os.Getenv("NAME"))
 	 fmt.Println("environment var :", os.Getenv("NAME")=="SK SHAHRIAR AHMED RAKA")
+	 
 	fmt.Println("environment var :", os.Getenv("POSTGRES_TIMEZONE"))
 	fmt.Println("environment var :", os.Getenv("POSTGRES_TIMEZONE")=="Asia/Dhaka")
 	fmt.Println("🚀✨ Api is started")
